@@ -1,0 +1,51 @@
+.thread-header {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.thread-body {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+.message {
+  max-width: 70%;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.incoming {
+  background: #f1f1f1;
+  align-self: flex-start;
+}
+.outgoing {
+  background: #d1e7ff;
+  align-self: flex-end;
+}
+.message .time {
+  display: block;
+  font-size: 11px;
+  color: #888;
+  margin-top: 4px;
+}
+.template-warning {
+  text-align: center;
+  background: #fff3cd;
+  border-top: 1px solid #ffeeba;
+  padding: 0.75rem;
+  font-size: 14px;
+}
+.btn-template {
+  margin-top: 0.5rem;
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}

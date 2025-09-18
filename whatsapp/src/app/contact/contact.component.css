@@ -1,0 +1,14 @@
+.contact-details {
+  border-left: 1px solid #ddd;
+  background: #fff;
+  padding: 1rem;
+}
+.details-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.details-list li {
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
